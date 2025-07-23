@@ -13,3 +13,69 @@
 .noto-serif {
     font-family: "Noto Serif", serif;
 }
+
+
+
+.manu-cart {
+    display: none;
+}
+
+/* header section style start */
+
+.header-section {
+    margin: 30px 150px;
+
+}
+
+.site-logo img {
+    width: 100px;
+    height: 65px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-items ul {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+
+}
+
+.menu-items ul li {
+    list-style: none;
+}
+
+.menu-items ul li a {
+    text-decoration: none;
+    color: rgba(37, 36, 50, 1.00);
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    padding: 100px 0px;
+}
+
+.banner-content p {
+    color: rgba(0, 0, 0, 0.50);
+    font-family: "Inter", sans-serif;
+}
+
+h1 {
+    padding: 10px 0;
+    font-size: 48px;
+    font-weight: bold;
+    font-family: "Noto Serif", serif;
+
+}
+
+h1 span {
+    color: rgba(233, 90, 8, 1.00);
+}
