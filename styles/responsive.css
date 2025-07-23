@@ -1,4 +1,6 @@
 @media screen and (max-width:576px) {
+    /* header section style start */
+
     img {
         width: 100%;
         height: 100%;
@@ -57,5 +59,27 @@
         font-size: 14px;
 
     }
+
+    /* planrs section style start */
+
+    .plants-section {
+        margin: 16px;
+    }
+
+    .plants-section-title {
+        text-align: center;
+        padding: 20px;
+    }
+
+    .plants-section-cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    /* planrs section style end */
+
+    /* planrs section style start */
+
 
 }
