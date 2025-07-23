@@ -107,4 +107,27 @@
     .flower-lover-section-title ul li {
         margin: 12px;
     }
+
+    /* planrs Lover section style end*/
+
+    .latest-deal-section-card {
+        display: grid;
+        gap: 10px;
+
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: 200px 200px 200px;
+
+    }
+
+    #double {
+        grid-row: span 1;
+    }
+
+    .latest-deal-section {
+        margin: 50px 16px;
+    }
+
+    .latest-deal-section-title {
+        padding: 20px;
+    }
 }

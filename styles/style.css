@@ -20,6 +20,11 @@
     display: none;
 }
 
+span {
+    color: rgba(233, 90, 8, 1.00);
+
+}
+
 /* header section style start */
 
 .header-section {
@@ -101,10 +106,7 @@ h1 span {
 
 }
 
-.plants-section-title h2 span {
-    color: rgba(233, 90, 8, 1.00);
 
-}
 
 .plants-section-title p {
     color: rgba(0, 0, 0, 0.50);
@@ -170,7 +172,7 @@ h1 span {
 
 .flower-plants-lover-section {
 
-    margin: 200px 150px;
+    margin: 200px 150px 50px 150px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -195,10 +197,69 @@ h1 span {
 .flower-lover-section-title ul li {
 
     margin: 20px;
-    color: rgba(17, 17, 17, 1.00);
+    color: rgba(0, 0, 0, 0.50);
+
     font-family: "Inter", sans-serif;
 
 }
 
 
 /* planrs Lover section style end*/
+
+
+.latest-deal-section {
+    margin: 10px 150px;
+}
+
+.latest-deal-section-title {
+    text-align: center;
+    padding: 20px 150px 80px 150px;
+}
+
+.latest-deal-section-title h2 {
+    font-size: 44px;
+    font-weight: bold;
+    font-family: "Noto Serif", serif;
+
+}
+
+.latest-deal-section-title P {
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+
+}
+
+.latest-deal-section-card {
+    display: grid;
+    gap: 10px;
+
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: repeat(2, 180px);
+}
+
+.view-card {
+
+    background-color: rgba(0, 0, 0, 0.40);
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+}
+
+.view-card h2 {
+    font-size: 32px;
+}
+
+.view-card a {
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 0;
+    color: white;
+}
+
+#double {
+    grid-row: span 2;
+}
