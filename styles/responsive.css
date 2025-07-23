@@ -79,7 +79,32 @@
 
     /* planrs section style end */
 
-    /* planrs section style start */
 
 
+
+    /* planrs Lover section style start */
+
+    .trusted-badge {
+        display: none;
+    }
+
+    .flower-plants-lover-section {
+
+        margin: 30px 16px;
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .flower-lover-section-title {
+        width: 100%;
+        padding: 0px;
+    }
+
+    .flower-lover-section-title h2 {
+        font-size: 30px;
+    }
+
+    .flower-lover-section-title ul li {
+        margin: 12px;
+    }
 }
