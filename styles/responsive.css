@@ -110,6 +110,9 @@
 
     /* planrs Lover section style end*/
 
+
+    /* latest deal section style start*/
+
     .latest-deal-section-card {
         display: grid;
         gap: 10px;
@@ -129,5 +132,51 @@
 
     .latest-deal-section-title {
         padding: 20px;
+    }
+
+    /* latest deal section style end*/
+
+
+    /* join section style start*/
+
+
+    .join-section {
+        text-align: center;
+        padding: 50px 20px;
+        background-size: cover;
+    }
+
+    .join-section h2 {
+        padding-bottom: 20px;
+        color: white;
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .input-field input[type="button"] {
+
+        padding: 12px 15px;
+    }
+
+    /* join section style end*/
+
+    /* footer section start */
+
+    .footer-section {
+        margin: 0;
+        padding-top: 20px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 50px;
+        justify-content: space-between;
+    }
+
+    .site-logo-section-img {
+        width: 50px;
+        height: 30px;
+    }
+
+    .site-logo-section p {
+        padding: 10px;
     }
 }
