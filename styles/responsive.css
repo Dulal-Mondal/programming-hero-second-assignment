@@ -163,11 +163,11 @@
     /* footer section start */
 
     .footer-section {
-        margin: 0;
+        margin: 20px;
         padding-top: 20px;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        gap: 50px;
+        gap: 15px;
         justify-content: space-between;
     }
 
@@ -177,6 +177,23 @@
     }
 
     .site-logo-section p {
-        padding: 10px;
+        padding-top: 15px;
+    }
+
+    .socal-media-logo img {
+
+        width: 25px;
+        height: 25px;
+
+    }
+
+    .nav-clomun {
+        margin-left: 0px;
+    }
+
+    .site-logo-section img {
+
+        height: 100px;
+        width: 100px;
     }
 }

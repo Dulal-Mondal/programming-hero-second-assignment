@@ -318,6 +318,8 @@ h1 span {
 
 .site-logo-section p {
     padding: 10px 30px 20px 0;
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 14px;
 }
 
 .nav-clomun {
